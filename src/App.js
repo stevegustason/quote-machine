@@ -1,6 +1,3 @@
-/*This project is for FreeCodeCamp's Front End Libraries Quote Machine Project:
-https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine*/
-
 import React from 'react';
 import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
