@@ -102,6 +102,7 @@ class App extends React.Component {
 
   //Calls random quote generator API on initial page load and sets quote and author state
   componentDidMount() {
+    //Have to go through CORS proxy to avoid CORS error
     fetch('https://cors-anywhere.herokuapp.com/http://quotes.stormconsultancy.co.uk/random.json', 
     {
       headers : { 
